@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.fence{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid #3C5B6F;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    transition: background-color 0.5s ease, border-color 0.5s ease
+}
+.bx{
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 20px;
+    opacity: 75%;
+}
+.btn{
+    font-size: 20px;
+    border: none;
+    background-color:whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease
+}
+.btn:hover{
+    color:white;
+}
+.animation{
+    background-color:#304463;
+    transition: 0.2s ease-in;
+}
+.animation1{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #758694;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.animation2{
+    font-size: 20px;
+    border: none;
+    background-color: #758694;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.divtwo{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.divtwoanimation{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    transition: 0.5 ease;
+}
